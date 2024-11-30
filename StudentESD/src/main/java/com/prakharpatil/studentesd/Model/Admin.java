@@ -1,10 +1,12 @@
-package com.prakharpatil.studentesd.Controller;
+package com.prakharpatil.studentesd.Model;
 // LoginRequest.java
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "Admin")
 public class Admin {
 
     @Id
